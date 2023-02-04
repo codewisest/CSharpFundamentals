@@ -14,12 +14,18 @@ namespace CSharpFundamentals
         public void introduce()
         {
             Console.WriteLine("My name is " + FirstName + " " + LastName);
+            Console.ReadLine();
         }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
+            Person john = new Person();
+            john.FirstName = "John";
+            john.LastName = "Smith";
+
+            john.introduce();
         }
     }
 }
