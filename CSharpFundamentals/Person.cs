@@ -11,7 +11,7 @@ namespace CSharpFundamentals
         public string FirstName;
         public string LastName;
 
-        public void Introduction(string firstName, string lastName)
+        public void Introduction()
         {
             Console.WriteLine("My name is " + FirstName + " " + LastName);
         }

@@ -15,7 +15,7 @@ namespace CSharpFundamentals
             john.FirstName = "John";
             john.LastName = "Smith";
 
-            john.introduce();
+            john.Introduction();
 
             Calculator calculator = new Calculator();
             int result = calculator.Add(1, 5);
