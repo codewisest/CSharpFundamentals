@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpFundamentals.Math;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace CSharpFundamentals
             john.LastName = "Smith";
 
             john.introduce();
+
+            Calculator calculator = new Calculator();
+            int result = calculator.Add(1, 5);
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }
