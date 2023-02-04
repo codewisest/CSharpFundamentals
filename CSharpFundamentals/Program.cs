@@ -6,17 +6,6 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals
 {
-    public class Person
-    {
-        public string FirstName;
-        public string LastName;
-
-        public void introduce()
-        {
-            Console.WriteLine("My name is " + FirstName + " " + LastName);
-            Console.ReadLine();
-        }
-    }
     internal class Program
     {
         static void Main(string[] args)
