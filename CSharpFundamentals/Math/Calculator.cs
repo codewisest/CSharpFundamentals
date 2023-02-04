@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals.Math
 {
-    public class Calculator
+    internal class Calculator
     {
-        public int Add(int a, int b)
-        {
-            return a + b;
-        }
     }
 }
